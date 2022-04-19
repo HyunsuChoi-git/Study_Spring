@@ -1,10 +1,9 @@
-package com.heracomp.study_Java_oop;
+package com.heracomp.Study_Spring;
 
 
-import com.heracomp.study_Java_oop.logic.BubbleSort;
+import com.heracomp.Study_Spring.logic.BubbleSort;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

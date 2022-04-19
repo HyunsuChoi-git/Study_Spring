@@ -1,8 +1,6 @@
-package com.heracomp.study_Java_oop;
+package com.heracomp.Study_Spring;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
