@@ -2,16 +2,19 @@ package com.heracomp.Study_Spring.service;
 
 
 import com.heracomp.Study_Spring.logic.Sort;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class SortService {
     
     private final Sort<String> sort;
 
-    public SortService(Sort<String> sort){
+    public SortService(@Qualifier("bubbleSort") Sort<String> sort){
         this.sort = sort;
-        System.out.println("구현체는 : "+ sort.getClass().getName());
+        System.out.println("구현체 : "+ sort.getClass().getName());
     }
 
     public List<String> doSort(List<String> list){
